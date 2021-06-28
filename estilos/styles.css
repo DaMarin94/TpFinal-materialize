@@ -1,0 +1,32 @@
+.nav-left{
+   margin-left: 150px;
+}
+.margine-btn{
+   margin-left: 20px;
+}
+.nav-left{
+   padding-top: 12px;
+   
+}
+.cont-img{
+    height:900px;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://avatars.mds.yandex.net/get-zen_doc/1602486/pub_605731c4f629c85c2d215111_605737b883224c57fb21c277/scale_1200"); 
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: right right;
+    font-family: sans-serif;
+}
+
+.titulo{
+   margin-top: 50px;
+   margin-left: 0px;
+}
+.t, .v, .f, .n{
+   font-size: 80px;
+}
+.v, .f{
+   padding-left: 200px;
+}
