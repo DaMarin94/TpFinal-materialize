@@ -14,7 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busquedas</title>
 </head>
-
 <body>
     <header>
         <nav class="blue">
@@ -48,11 +47,14 @@
                 <a href="busqueda.html" class="breadcrumb blue-text">Ofertas</a>
               </div>
             </div>
-          </nav>
+        </nav>
         <section class="buscador">
             <div class="row">
                 <input placeholder="Buscar oferta" type="text" class="browser-default col s9">
                 <input placeholder="País/Región" type="text" class="browser-default col s3">
+            </div>
+            <div class="col s12 center-align">
+                <a href="#" class="btn blue" id="boton-buscar">BUSCAR</a>
             </div>
             <!---
             <div class="row">
@@ -70,16 +72,114 @@
                     <label>País/Región</label>
                   </div>
             </div>-->
-            <a href="#" class="btn blue">BUSCAR</a>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <section class="row" id="ofertas">
+            <div class="col s12 m3">
+                <div class="filtros">
+                    <form action="#">
+                        <p>
+                          <label>
+                            <input type="checkbox" class="filled-in" checked="checked" />
+                            <span>Filled in</span>
+                          </label>
+                        </p>
+                        <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Filled in</span>
+                            </label>
+                          </p>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Filled in</span>
+                            </label>
+                          </p>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Filled in</span>
+                            </label>
+                          </p>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Filled in</span>
+                            </label>
+                          </p>
+                      </form>
+                </div>
+            </div>
+            <div class="col s12 m9">
+                <div class="row oferta-listada-g">
+                    <div class="col s1 oferta-icono center-align">
+                        <img class="circle responsive-img" src="img/icono-instagram.png" alt="">
+                    </div>
+                    <div class="col s11">
+                        <a href="#"><h5>Programador fontend</h5></a>
+                        <h6>Instagram Arg</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                        <p>7 de Diciembre</p>
+                    </div>
+                </div>
+                <div class="row oferta-listada-g">
+                    <div class="col s1 oferta-icono center-align">
+                        <img class="circle responsive-img" src="img/icono-movistar.png" alt="">
+                    </div>
+                    <div class="col s11">
+                        <a href="#"><h5>Community Manager</h5></a>
+                        <h6>Movistar</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                        <p>6 de Diciembre</p>
+                    </div>
+                </div>
+                <div class="row oferta-listada-g">
+                    <div class="col s1 oferta-icono center-align">
+                        <img class="circle responsive-img" src="img/icono-apple.png" alt="">
+                    </div>
+                    <div class="col s11">
+                        <a href="#"><h5>Fotógrafo publicitario</h5></a>
+                        <h6>Apple</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                        <p>4 de Diciembre</p>
+                    </div>
+                </div>
+                <div class="row oferta-listada">
+                    <div class="col s1 oferta-icono center-align">
+                        <img class="circle responsive-img" src="img/icono-LG.png" alt="">
+                    </div>
+                    <div class="col s11">
+                        <a href="#"><h5>Desarrollador web Sr.</h5></a>
+                        <h6>LG</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                        <p>7 de Diciembre</p>
+                    </div>
+                </div>
+                <div class="row oferta-listada">
+                    <div class="col s1 oferta-icono center-align">
+                        <img class="circle responsive-img" src="img/icono-usuario-sin-foto.jpg" alt="">
+                    </div>
+                    <div class="col s11">
+                        <a href="#"><h5>Traductor Español-Inglés</h5></a>
+                        <h6>David Dobrik</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                        <p>30 de Noviembre</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m9 offset-m3 center-align">
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                  </ul>
+            </div>
+        </section>
     </main>
-    
-    
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -87,10 +187,9 @@
                 M.AutoInit();
         });
     </script>
-
 </body>
 <footer class="grey darken-1">
-    <section class="container">
+    <section class="container footer-main">
         <div class="footer-sect">
             <h6>POSTULANTES</h6>
             <div class="row footer-div">
@@ -125,36 +224,12 @@
         </div>
         <div class="footer-sect">
             <h6>SEGUINOS EN LAS REDES</h6>
-        </div>
-    </section>
-</footer>
-<!--
-<footer class="grey darken-1">
-    <section class="container row">
-        <div class="col s12 l2 offset-l1">
-            <h6>POSTULANTES</h6>
-            <div>
-                <a href="#" class="col s12 black-text">Buscar Ofertas</a>
-                <a href="#" class="col s12 black-text">Ofertas de trabajo para vos</a>
-                <a href="#" class="col s12 black-text">¿Cómo trabajar viajando?</a>
-                <a href="#" class="col s12 black-text">Ayuda postulantes</a>
+            <div class="row footer-div">
+                <a href="#"><img src="img/icono-facebook.png" alt="facebook"></a>
+                <a href="#"><img src="img/icono-instagram.png" alt="instagram"></a>
+                <a href="#"><img src="img/icono-twitter.png" alt="twitter"></a>
             </div>
-
-        </div>
-        <div class="col s12 l2">
-            <h6>RECLUTADORES</h6>
-        </div>
-        <div class="col s12 l2">
-            <h6>ACERCA DE NOSOTROS</h6>
-        </div>
-        <div class="col s12 l2">
-            <h6>CONTRATA GOLDEN-PASS</h6>
-        </div>
-        <div class="col s12 l2">
-            <h6>SEGUINOS EN LAS REDES</h6>
         </div>
     </section>
 </footer>
--->
-
 </html>
