@@ -2,8 +2,6 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -14,47 +12,371 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Officen't</title>
 </head>
 
-<body  class="cont-img">
-    
-    <nav>
-        <div class="nav-wrapper blue">
-            <div class="container">
-                <a href="#" class="brand-logo"><img src="img/1.png" alt="logo" class="img"></a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down nav-left">
-                    <li><a href="sass.html">Postulantes</a></li>
-                    <li><a href="badges.html">Reclutadores</a></li>
-                    <li><a href="busqueda.html">Ofertas</a></li>
+<body>
+   
+        <!------------------------------------ NAV ------------------------------------------------------>
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo center"><img src="img/1.png" alt="logo" class="img"></a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="left hide-on-med-and-down">
+                        <li><a href="#1">Ofertas</a></li>
+                        <li><a href="#2">golden-pass</a></li>
+                        <li><a href="#3">Usuarios</a></li>
+                        <li><a href="#4">Crea tu cv</a></li>
                 </ul>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>¿YA ESTAS REGISTRADO?</li>
-                    <li><a href="#" class="btn waves-effect waves-light black margine-btn">Inicias sesion</a></li>
+                <ul class="right hide-on-med-and-down">
+                   <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+                   <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
                 </ul>
             </div>
+        </nav>
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="#1">Ofertas</a></li>
+            <li><a href="#2">golden-pass</a></li>
+            <li><a href="#3">Usuarios</a></li>
+            <li><a href="#4">Crea tu cv</a></li>
+            <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+            <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+        </ul>
+        
+        <!------------------------------------ 1°seccion portada ------------------------------------------------------>
+    <div class="cont-img">
+        <div class="container cont_inicio">
+            <div class="titulo">
+                <h1 class="white-text t">TRABAJAR</h1>
+                <h1 class="white-text v">VIAJANDO</h1>
+                <h1 class="white-text n">NUNCA FUE</h1>
+                <h1 class="white-text f">TAN FACIL</h1>
+            </div>
+            <div class="titulo">
+                <img class="pc pcR" src="img/pc1.png" alt="">
+                <img class="pc pcR" src="img/pc2.png" alt="">
+                <img class="pc" src="img/pc3.png" alt="">
+            </div>
         </div>
-  </nav>
+    </div>
+        
+    <!------------------------------------ 2° busqueda ------------------------------------------------------>
 
-  
-  <div class="container">
-        <div class="titulo">
-            <h1 class="white-text t">TRABAJAR</h1>
-            <h1 class="white-text v">VIAJANDO</h1>
-            <h1 class="white-text n">NUNCA FUE</h1>
-            <h1 class="white-text f">TAN FACIL</h1>
-        </div>  
-        <div class="titulo">
-            <img src="img/pc1.png" alt="">
-            <img src="img/pc2.png" alt="">
-            <img src="img/pc3.png" alt="">  
-        </div> 
-  </div>
+    <div class="cont_img_busqueda">
+
+        <div class="white cont_row_btn inset">
+            <div class="container">
+                <div class="row cont_btn">
+                    <div class="col s2"></div>
+                    <button class="col s3 btn waves-effect waves-light blue"><span class="texto_btn">QUIERO TRABAJAR <br> A DISTANCIA</span></button>
+                    <div class="col s2"></div>
+                    <button class="col s3 btn waves-effect waves-light blue"><span class="texto_btn">QUIERO CONTRATAR A ALGUIEN A DISTANCIA</span></button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!------------------------------------ 2° Busqueda ------------------------------------------------------>
+
+        <div class="container scroll" id="1">
+            <div class="">
+                <h2>Trabajar comodamente</h2>
+                <div class="row cont_busqueda">
+                    <input type="text" class="col s9 search_l" placeholder="   Buscar ofertas">
+                    <input type="text" class="col s3 search_r" placeholder=" Pais/region">
+                </div>
+                <div class="center">
+                    <div class="row">
+                        <div class="col s5"></div>
+                        <button class="col s2 btn waves-effect waves-light blue btn_buscar">BUSCAR</button>
+                    </div>      
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!------------------------------------ 2° Ofertas recientes ------------------------------------------------------>
+    
+    <div class="container">
+        <div class="ofertas_recientes">
+            <h2>Ofertas recientes</h2>
+        <div class="row cont_ofertas_recientes">
+
+            <div class="col m4">                
+                <div class="card z-depth-5">
+                    <div class="card-content white-text">
+                    <div class="row">
+                            <span class="col s9 card-title black-text">Desarrolador web jr</span>
+                            <img class="col s3 ofertas_img" src="img/hp.png" alt="">
+                    </div>
+                    <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                    <a href="#">Ver mas</a>
+                    </div>
+                </div>                       
+            </div>
+
+        
+
+            <div class="col m4">
+                <div class="card z-depth-5">
+                    <div class="card-content white-text">
+                        <div class="row">
+                            <span class="col s9 card-title black-text">Desarrolador web jr</span>
+                            <img class="col s3 ofertas_img" src="img/hp.png" alt="">
+                        </div>
+                        <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="col m4">
+                <div class="card z-depth-5">
+                    <div class="card-content white-text">
+                        <div class="row">
+                            <span class="col s9 card-title black-text">Desarrolador web jr</span>
+                            <img class="col s3 ofertas_img" src="img/hp.png" alt="">
+                        </div>
+                        <p class="black-text">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!------------------------------------ 3° POR QUE USAR OFFICEN´T ------------------------------------------------------>
+    
+    <div class="grey lighten-2 scroll2" id="2">
+            <div class="container">
+                <div class="ofertas_recientes">
+                    <h2 class="amber-text">Golden-pass</h2>
+                    <div class="row cont_ofertas_recientes">
+            
+                        <div class="col m6">
+                            <div class="card z-depth-5 border_yellow">
+                                <div class="card-content white-text">
+                                    <div class="row">
+                                        <span class="col s9 card-title black-text"><h4>EMPRESA</h4></span>
+                                        <img class="col s3" src="img/gato-golden.png" alt="">
+                                    </div>
+                                    <p class="black-text">*Encuentra y conecta con las personas adecuadas <br><br>
+                                    
+                                    *Promociona y amplía tu negocio<br><br>
+                                    
+                                    *Adquiere nuevas aptitudes para mejorar tu marca profesional<br><br>
+                                    
+                                    *Encuentra a candidatos cualificados más rápido<br><br>
+                                    
+                                    *Comunícate con los mejores candidatos directamente<br></p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">CONTRATAR</a>
+                                    <p>3.319,00 AR$*/mes</p>
+                                </div>
+                            </div>
+                        </div>
+            
+            
+            
+                        <div class="col m6">
+                            <div class="card z-depth-5 border_yellow">
+                                <div class="card-content white-text ">
+                                    <div class="row">
+                                        <span class="col s9 card-title black-text">
+                                            <h4>EMPLEADO</h4>
+                                        </span>
+                                        <img class="col s3" src="img/gato-golden.png" alt="">
+                                    </div>
+                                    <p class="black-text">*Encuentra y conecta con las personas adecuadas <br><br>
+                                    
+                                    *Promociona y amplía tu negocio<br><br>
+                                    
+                                    *Adquiere nuevas aptitudes para mejorar tu marca profesional<br><br>
+                                    
+                                    *Encuentra a candidatos cualificados más rápido<br><br>
+                                    
+                                    *Comunícate con los mejores candidatos directamente<br></p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">CONTRATAR</a>
+                                    <p>999,00 AR$*/mes</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!------------------------------------ 4° USUARIOS DE OFFICEN´T ------------------------------------------------------>
+
+    <div class="grey lighten-5 scroll2" id="3">
+        <div class="container cont_usuarios">
+            <div class="center margin_titulo">
+                <h3>USUARIOS DE OFFICEN´T</h3>
+                <img src="img/divicion.png" alt="">
+            </div>
+            <div class="cont_usurios_flex">
+                <div class="cont_usurio_item usuario_booton cont_circulo_ArI z-depth-5">
+                    <div class="row">
+                        <div class="col s5">
+                            <img class="responsive-img" src="img/perfil.png" alt="">
+                        </div>
+                        <div class="col s7">
+                            <h5>MARIA JESUS RUBIO</h5>
+                            <P class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi necessitatibus nesciunt dolor.
+                                Dignissimos quae nesciunt atque reiciendis consequuntur?</P>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cont_usurio_item usuario_booton cont_circulo_ArD z-depth-5">
+                    <div class="row">
+                        <div class="col s7 text_end">
+                            <h5>MARIA JESUS RUBIO</h5>
+                            <P class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi necessitatibus nesciunt dolor.
+                            Dignissimos quae nesciunt atque reiciendis consequuntur?</P>
+                        </div>
+                        <div class="col s5 text_end">
+                            <img class="responsive-img" src="img/perfil.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_usurios_flex">
+                <div class="cont_usurio_item usuario_booton cont_circulo_AbI z-depth-5">
+                    <div class="row">
+                        <div class="col s5 ">
+                            <img class="responsive-img" src="img/perfil.png" alt="">
+                        </div>
+                        <div class="col s7">
+                            <h5>MARIA JESUS RUBIO</h5>
+                            <P class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi necessitatibus nesciunt dolor.
+                            Dignissimos quae nesciunt atque reiciendis consequuntur?</P>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cont_usurio_item usuario_booton cont_circulo_AbD z-depth-5">
+                    <div class="row">
+                        <div class="col s7 text_end ">
+                            <h5>MARIA JESUS RUBIO</h5>
+                            <P class="overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi necessitatibus nesciunt dolor.
+                            Dignissimos quae nesciunt atque reiciendis consequuntur?</P>
+                        </div>
+                        <div class="col s5">
+                            <img class="responsive-img" src="img/perfil.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------ 5° CREA TU PERFIL PROFECIONAL ------------------------------------------------------>
+
+    <div class="grey lighten-2">
+        <div class="container" id="4">
+            <div class="center ">
+                <h3 class="gato_titulo">¡CREA TU PERFIL PROFECIONAL!</h3>
+                <img src="img/divicion.png" alt="">
+            </div>
+            <div class="cont_gatos">
+                <div>
+                    <img src="img/gato1.png" alt="">
+                    <p>Datos personales</p>
+                </div>
+                <div>
+                    <img src="img/gato2.png" alt="">
+                    <p>Imagen de perfil</p>
+                </div>
+                <div>
+                    <img src="img/gato3.png" alt="">
+                    <p>Educacion</p>
+                </div>
+                <div>
+                    <img src="img/gato4.png" alt="">
+                    <p>Experiecia profecional</p>
+                </div>
+                <div>
+                    <img src="img/gato5.png" alt="">
+                    <p>Habilidades</p>
+                </div>
+            </div>
+            <div class="center cont_btn_gatos">
+                <button class="btn waves-effect waves-light blue">HAZLO GRATIS</button>
+            </div>
+        </div>
+
+    </div>
+        
+    <!------------------------------------ footer ------------------------------------------------>
+
+    <footer class="grey lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <h5>POSTULANTES</h5>
+                    <ul>
+                        <li>Busacar ofertas</li>
+                        <li>Ofertas de trabajo para vos</li>
+                        <li>¿Como trabajar viajando?</li>
+                        <li>Ayuda postulantes</li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5>RECLUTADORES</h5>
+                    <ul>
+                        <li>Cargar aviso de empleado</li>
+                        <li>Curriculums que se adaptan a tu negocio</li>
+                        <li class="hidden">¿Como cargar mi primer aviso de empleo remoto?</li>
+                        <li>Ayuda reclutadores</li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5>CONTRATAR GOLDEN-PASS</h5>
+                    <ul>
+                        <li>Para postulantes</li>
+                        <li>Para reclutadores</li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5>SEGUINOS EN LAS REDES</h5>
+                    <ul>
+                        <li><img class="redes" src="img/redes.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();
+        });
+    </script>
   
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
 
 </html>

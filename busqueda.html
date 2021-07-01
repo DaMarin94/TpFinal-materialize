@@ -20,6 +20,33 @@
             <div class="nav-wrapper container">
                 <a href="index.html" class="brand-logo center"><img src="img/1.png" alt="logo" class="img"></a>
                 <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="left hide-on-med-and-down">
+                        <li><a href="#1">Ofertas</a></li>
+                        <li><a href="#2">Golden-pass</a></li>
+                        <li><a href="#3">Usuarios</a></li>
+                        <li><a href="#4">Crea tu cv</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                   <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+                   <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="#1">Ofertas</a></li>
+            <li><a href="#2">Golden-pass</a></li>
+            <li><a href="#3">Usuarios</a></li>
+            <li><a href="#4">Crea tu cv</a></li>
+            <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+            <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+        </ul>
+        <!--
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo center"><img src="img/1.png" alt="logo" class="img"></a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                             <i class="material-icons">menu</i>
                 </a>
                 <ul class="left hide-on-med-and-down">
@@ -37,7 +64,7 @@
             <li><a href="sass.html">Postulantes</a></li>
             <li><a href="badges.html">Reclutadores</a></li>
             <li><a href="busqueda.html">Ofertas</a></li>
-        </ul>
+        </ul>-->
     </header>
     <main class="container">
         <nav class="white z-depth-0 breadcrumbs">
@@ -56,92 +83,382 @@
             <div class="col s12 center-align">
                 <a href="#" class="btn blue" id="boton-buscar">BUSCAR</a>
             </div>
-            <!---
-            <div class="row">
-                <div class="input-field col s9">
-                    <input placeholder="Puesto" id="buscar_oferta" type="text" class="validate">
-                    <label for="buscar_oferta">Buscar oferta</label>
-                  </div>
-                <div class="input-field col s3">
-                    <select>
-                      <option value="" disabled selected>Elegir País/Región</option>
-                      <option value="1">Gambia</option>
-                      <option value="2">Italia</option>
-                      <option value="3">Mongolia</option>
-                    </select>
-                    <label>País/Región</label>
-                  </div>
-            </div>-->
         </section>
         <section class="row" id="ofertas">
-            <div class="col s12 m3">
-                <div class="filtros">
-                    <form action="#">
+            <div class="col s12 m3 filtros">
+                <ul class="collapsible z-depth-0">
+                    <li>
+                      <div class="collapsible-header" id="primer-li"><i class="material-icons">info</i>ÁREA</div>
+                      <div class="collapsible-body">
                         <p>
-                          <label>
-                            <input type="checkbox" class="filled-in" checked="checked" />
-                            <span>Filled in</span>
-                          </label>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Administración</span>
+                            </label>
                         </p>
                         <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
-                              <span>Filled in</span>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Call center</span>
                             </label>
-                          </p>
-                          <p>
+                        </p>
+                        <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
-                              <span>Filled in</span>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Comercio exterior</span>
                             </label>
-                          </p>
-                          <p>
+                        </p>
+                        <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
-                              <span>Filled in</span>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Comunicación</span>
                             </label>
-                          </p>
-                          <p>
+                        </p>
+                        <p>
                             <label>
-                              <input type="checkbox" class="filled-in" checked="checked" />
-                              <span>Filled in</span>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Construcción</span>
                             </label>
-                          </p>
-                      </form>
-                </div>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Diseño</span>
+                            </label>
+                        </p> 
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Educación</span>
+                            </label>
+                        </p> 
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Finanzas</span>
+                            </label>
+                        </p> 
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Gastronomía</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Gerencia</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Ingeniería</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Legales</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Logística</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Marketing</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Minería</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Oficios</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Producción</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Recursos Humanos</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Salud</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Secretaría</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Seguros</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Tecnología</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Ventas</span>
+                            </label>
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">import_export</i>NIVEL LABORAL</div>
+                      <div class="collapsible-body">
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Senior / Semi-Senior</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Junior</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Jefe / Supervisor / Responsable</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Gerencia / Alta Gerencia / Dirección</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" checked="checked" />
+                                <span>Otros</span>
+                            </label>
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">date_range</i>FECHA DE PUBLICACION</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">assignment_ind</i>TIPO DE PUESTO</div>
+                        <div class="collapsible-body">
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Full-Time</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Part-Time</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Teletrabajo</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Por Horas</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Temporario</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Por Contrato</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Pasantía</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Fines de Semana</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>VER MÁS</span>
+                                </label>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">place</i>SEDE DE LA EMPRESA</div>
+                        <div class="collapsible-body">
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Capital Federal</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Bs.As. G.B.A Oeste</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Bs.As. G.B.A Norte</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Bs.As. G.B.A Sur</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Buenos Aires Interior</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Córdoba</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Otras</span>
+                                </label>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header" id="ultimo-li"><i class="material-icons">local_atm</i>REMUNERACION</div>
+                        <div class="collapsible-body">
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>> $8000 (29)</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>$2000 a $8000 (35)</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>< $2000 (3)</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" checked="checked" />
+                                    <span>Otros (48)</span>
+                                </label>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div class="col s12 m9">
                 <div class="row oferta-listada-g">
                     <div class="col s1 oferta-icono center-align">
                         <img class="circle responsive-img" src="img/icono-instagram.png" alt="">
                     </div>
-                    <div class="col s11">
-                        <a href="#"><h5>Programador fontend</h5></a>
-                        <h6>Instagram Arg</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
-                        <p>7 de Diciembre</p>
+                    <div class="col s11 row">
+                        <div class="col s10 m10 l11">
+                            <a href="#"><h5>Programador fontend</h5></a>
+                            <h6>Instagram Arg</h6>
+                        </div>
+                        <div class="col s2 m2 l1 oferta-icono-d center-align">
+                            <img class="responsive-img" src="img/gato-golden.png" alt="">
+                        </div>
+                        <div class="col s12">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                            <p>7 de Diciembre</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row oferta-listada-g">
                     <div class="col s1 oferta-icono center-align">
                         <img class="circle responsive-img" src="img/icono-movistar.png" alt="">
                     </div>
-                    <div class="col s11">
-                        <a href="#"><h5>Community Manager</h5></a>
-                        <h6>Movistar</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
-                        <p>6 de Diciembre</p>
+                    <div class="col s11 row">
+                        <div class="col s10 m10 l11">
+                            <a href="#"><h5>Community Manager</h5></a>
+                            <h6>Movistar</h6>
+                        </div>
+                        <div class="col s2 m2 l1 oferta-icono-d center-align">
+                            <img class="responsive-img" src="img/gato-golden.png" alt="">
+                        </div>
+                        <div class="col s12">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                            <p>6 de Diciembre</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row oferta-listada-g">
                     <div class="col s1 oferta-icono center-align">
                         <img class="circle responsive-img" src="img/icono-apple.png" alt="">
                     </div>
-                    <div class="col s11">
-                        <a href="#"><h5>Fotógrafo publicitario</h5></a>
-                        <h6>Apple</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
+                    <div class="col s11 row">
+                        <div class="col s10 m10 l11">
+                            <a href="#"><h5>Fotógrafo publicitario</h5></a>
+                            <h6>Apple</h6>
+                        </div>
+                        <div class="col s2 m2 l1 oferta-icono-d center-align">
+                            <img class="responsive-img" src="img/gato-golden.png" alt="">
+                        </div>
+                        <div class="col s12">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nostrum soluta. Maxime, impedit consequuntur? Neque aperiam fuga qui, maxime quis alias ex inventore eaque nisi, hic expedita, omnis necessitatibus voluptates?</p>
                         <p>4 de Diciembre</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row oferta-listada">
@@ -180,56 +497,58 @@
             </div>
         </section>
     </main>
+    <footer class="grey lighten-1">
+        <section class="container footer-main">
+            <div class="footer-sect">
+                <h6>POSTULANTES</h6>
+                <div class="row footer-div">
+                    <a href="busqueda.html" class="col s12 black-text">Buscar Ofertas</a>
+                    <a href="#" class="col s12 black-text">Ofertas de trabajo para vos</a>
+                    <a href="#" class="col s12 black-text">¿Cómo trabajar viajando?</a>
+                    <a href="#" class="col s12 black-text">Ayuda postulantes</a>
+                </div>
+            </div>
+            <div class="footer-sect">
+                <h6>RECLUTADORES</h6>
+                <div class="row footer-div">
+                    <a href="#" class="col s12 black-text">Cargar avisos de empleo</a>
+                    <a href="#" class="col s12 black-text">Currículums que se adaptan a tu negocio</a>
+                    <a href="#" class="col s12 black-text">¿Cómo cargo mi primer aviso de empleo remoto?</a>
+                    <a href="#" class="col s12 black-text">Ayuda reclutadores</a>
+                </div>
+            </div>
+            <div class="footer-sect">
+                <h6>ACERCA DE NOSOTROS</h6>
+                <div class="row footer-div">
+                    <a href="#" class="col s12 black-text">¿Por qué usar Officen't?</a>
+                    <a href="#" class="col s12 black-text">Opiniones de usuarios</a>
+                </div>
+            </div>
+            <div class="footer-sect">
+                <h6>CONTRATA GOLDEN-PASS</h6>
+                <div class="row footer-div">
+                    <a href="#" class="col s12 black-text">Para postulantes</a>
+                    <a href="#" class="col s12 black-text">Para reclutadores</a>
+                </div>
+            </div>
+            <div class="footer-sect">
+                <h6>SEGUINOS EN LAS REDES</h6>
+                <div class="row footer-div">
+                    <a href="#"><img src="img/icono-facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="img/icono-instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="img/icono-twitter.png" alt="twitter"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/busqueda.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function(){
                 M.AutoInit();
         });
     </script>
 </body>
-<footer class="grey darken-1">
-    <section class="container footer-main">
-        <div class="footer-sect">
-            <h6>POSTULANTES</h6>
-            <div class="row footer-div">
-                <a href="busqueda.html" class="col s12 black-text">Buscar Ofertas</a>
-                <a href="#" class="col s12 black-text">Ofertas de trabajo para vos</a>
-                <a href="#" class="col s12 black-text">¿Cómo trabajar viajando?</a>
-                <a href="#" class="col s12 black-text">Ayuda postulantes</a>
-            </div>
-        </div>
-        <div class="footer-sect">
-            <h6>RECLUTADORES</h6>
-            <div class="row footer-div">
-                <a href="#" class="col s12 black-text">Cargar avisos de empleo</a>
-                <a href="#" class="col s12 black-text">Currículums que se adaptan a tu negocio</a>
-                <a href="#" class="col s12 black-text">¿Cómo cargo mi primer aviso de empleo remoto?</a>
-                <a href="#" class="col s12 black-text">Ayuda reclutadores</a>
-            </div>
-        </div>
-        <div class="footer-sect">
-            <h6>ACERCA DE NOSOTROS</h6>
-            <div class="row footer-div">
-                <a href="#" class="col s12 black-text">¿Por qué usar Officen't?</a>
-                <a href="#" class="col s12 black-text">Opiniones de usuarios</a>
-            </div>
-        </div>
-        <div class="footer-sect">
-            <h6>CONTRATA GOLDEN-PASS</h6>
-            <div class="row footer-div">
-                <a href="#" class="col s12 black-text">Para postulantes</a>
-                <a href="#" class="col s12 black-text">Para reclutadores</a>
-            </div>
-        </div>
-        <div class="footer-sect">
-            <h6>SEGUINOS EN LAS REDES</h6>
-            <div class="row footer-div">
-                <a href="#"><img src="img/icono-facebook.png" alt="facebook"></a>
-                <a href="#"><img src="img/icono-instagram.png" alt="instagram"></a>
-                <a href="#"><img src="img/icono-twitter.png" alt="twitter"></a>
-            </div>
-        </div>
-    </section>
-</footer>
+
 </html>
