@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    nav .container{
+        width: 100% !important;
+        margin: 0px !important;
+     }
+ }
+h4{
+    font-weight: bold;
+    font-size: 3.5em;
+    margin: 40px 0px 20px 0px;
+}
+.breadcrumb:before{
+    color: #2196f3;
+}
+.breadcrumbs{
+    background-color: transparent !important;
+    margin-top: 4px;
+}
+/* --------------- inputs ------------------*/
+input{
+    padding: 0px 0px 0px 10px !important;
+    border: 2px !important;
+    border-width: 2px;
+    border-color: rgb(138, 138, 138) !important;
+    border-style: solid !important;
+    border-bottom: 10px;
+    border-radius: 10px !important;
+}
+::placeholder{
+    color: rgb(27, 27, 27);
+}
+.input-field input[type=text]:focus {
+    box-shadow: 0 1px 0 0 #ffffff !important;
+}
+.input-field input[type=text]:focus + label {
+    color: #2196f3 !important;
+    
+  }
+.dropdown-content select-dropdown{
+    color: blue !important;
+}
+.collapsible {
+    border-style: solid;
+    border-width: 2px;
+    margin: 0rem 0 1rem 0;
+}
+/* --------------- botones ------------------*/
+
+@media (min-width: 1400px){
+    .botones{
+        padding: 0px 4em;
+    }
+}
+@media (max-width: 600px){
+    #boton-crear{
+        margin-top: 15px;
+    }
+    #boton-cancelar{
+        padding: 0px 2.2em;
+    }
+}
+
+@media (min-width: 600px){
+    .img-bkgr{
+        position: relative;
+        left: 5px;
+        height:800px;
+        width: 99.38%;
+        background-image: url(/img/reposera.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pre-bkgr{
+        padding-right: 0em !important;
+    }
+}
+
+@media (max-width: 600px){
+    .formulario-back{
+        background-image: url(/img/reposera.jpeg);
+        height:800px;
+        background-size: cover;
+    }
+    ::placeholder{
+        color: rgb(27, 27, 27);
+    }
+    input{
+        background-color: rgba(192, 192, 192, 0.575) !important;
+    }
+    .pre-bkgr{
+        display: none;
+    }
+    .breadcrumb:before{
+        color: #1b7fd1;
+    }
+    .breadcrumbs{
+        background-color: rgba(209, 209, 209, 0.836) !important;
+        margin-top: 4px;
+        border-radius: 10px !important;
+    }
+}

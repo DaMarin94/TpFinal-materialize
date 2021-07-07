@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
 /*----------------------- NAV ---------------------------*/
 nav{
    top: 0;
@@ -13,6 +21,12 @@ nav{
 .nav-left{
    padding-top: 12px;
 }
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+   nav .container{
+       width: 100% !important;
+       margin: 0px !important;
+    }
+}
 /*----------------------- 1° ---------------------------*/
 .cont-img{
     height:825px;
@@ -20,7 +34,6 @@ nav{
     padding: 0;
     background-image: url("../img/fondo.jpg"); 
     background-repeat: no-repeat;
-    
     background-size: cover;
     background-position: left center;
     font-family: sans-serif;
@@ -30,15 +43,19 @@ nav{
    margin-top: 60px;
 }
 .titulo{
-   margin-top: 50px;
+   margin-top: 80px;
+   margin-bottom: 80px;
    margin-left: 0px;
 }
 .t, .v, .f, .n{
-
    font-size: 80px;
 }
 .v, .f{
-   padding-left: 200px;
+   padding-left: 150px;
+   margin-bottom: 0.5em !important;
+}
+h1{
+   margin: 0.5rem 0rem 0rem 0rem !important;
 }
 .pcR{
    margin-right: 50px;
@@ -54,7 +71,6 @@ nav{
 }
 .texto_btn{
     font-size: 25px;
-
 }
 
 /*----------------------- 2° ---------------------------*/
@@ -79,26 +95,13 @@ nav{
     background-color: #fff !important;
     border-top-left-radius: none !important;
 }
-.search_l{
-   border-start-start-radius: 15px !important;
-   border-end-start-radius: 15px !important;
-}
-.search_r{
-   border-start-end-radius: 15px !important;
-   border-end-end-radius: 15px !important;
-}
 .cont_busqueda{
    margin-top: 80px;
 }
 
 /*----------------------- 2° ---------------------------*/
 
-.ofertas_recientes h2{
-   padding: 20px;
-}
-.cont_ofertas_recientes{
-   margin-top: 50px;
-}
+
 
 /*----------------------- 3° ---------------------------*/
 
@@ -159,16 +162,8 @@ nav{
 .cont_gatos {
    filter: drop-shadow( .1em .1em .5em );
 }
-.inset{
-   box-shadow: black 0px -3px 20px 10px  inset!important;
-}
-.shadow{
-   box-shadow: black 11px 1px 15px 10px !important;
-}
-.cont_img_busqueda{
-   box-shadow: black -1px 8px 14px 6px !important;
-   
-}
+
+
 
 /*----------------------- 5° ---------------------------*/
 .cont_usurios_flex{
@@ -218,12 +213,35 @@ nav{
      border-radius: 100px 0  100px 0;
 }
 
-/*----------------------- footer ---------------------------*/
-
-footer{
-   height: 230px;
-   padding-bottom:0;
-   padding-top: 30px;
+/* ------------------ footer --------------*/
+.footer-main{
+   display: flex !important;
+   flex-wrap: wrap;
+}
+.footer-sect{
+   display: inline-block;
+   width: 100%;
+}
+.footer-sect h6{
+   margin: 20px 0px;
+}
+@media (min-width: 768px){
+   .footer-sect{
+       margin: 6px;
+       width: 15%;
+   }
+   .footer-main{
+       justify-content: space-around;
+   }
+}
+.footer-div a{
+   font-size: 0.8em;
+   padding: 0px !important;
+}
+.footer-div img{
+   height: 2.5em;
+   border-radius: 50%;
+   margin: 0px 0px;
 }
 
 /*----------------------- generico ---------------------------*/
@@ -237,18 +255,9 @@ footer{
 .margine_cero{
    margin: 0 !important;
    padding: 0 !important;
-   
 }
 html{
    scroll-behavior: smooth;
-   
-}
-
-.scroll{
-   scroll-margin-top: 6em;
-}
-.scroll2{
-   scroll-margin-top: 4.2em;
 }
 .border_yellow{
    border: 5px solid yellow;
@@ -486,8 +495,8 @@ html{
    .cont_gatos img{
       width: 100px;
    }
-      .cont_gatos p{
-       text-align:start;
+   .cont_gatos p{
+      text-align:start;
    }
    .cont_usuarios img{
       width: 100px;

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/elegirCuenta.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+</head>
+<body>
+    <header>
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo center"><img src="img/1.png" alt="logo" class="img"></a>
+                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="left hide-on-med-and-down">
+                        <li><a href="busqueda.html">Ofertas</a></li>
+                        <li><a href="#2">Golden-pass</a></li>
+                        <li><a href="#3">Usuarios</a></li>
+                        <li><a href="#4">Crea tu cv</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                   <li><a href="iniciarSesion.html" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+                   <li><a href="elegirNuevaCuenta.html" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="#1">Ofertas</a></li>
+            <li><a href="#2">Golden-pass</a></li>
+            <li><a href="#3">Usuarios</a></li>
+            <li><a href="#4">Crea tu cv</a></li>
+            <li><a href="iniciarSesion.html" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+            <li><a href="elegirNuevaCuenta.html" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+        </ul>
+    </header>
+    <main class="row">
+        <div class="col s12 m12 l6 blue pre-bkgr">
+            <a href="creaCuentaEmpresa.html" title="Cuenta empresa">
+                <div class="img-bkgr-izq">
+                    <div class="pantalla-gris">
+                        <p>Cuenta Empresa</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col s12 m12 l6 blue pre-bkgr">
+            <a href="crearCuenta.html" title="Cuenta empleado">
+                <div class="img-bkgr-der">
+                    <div class="pantalla-gris" id="pantalla-gris" onmouseover="cambiarOpacidad()">
+                        <p>Cuenta Empleado</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+                M.AutoInit();
+        });
+    </script>
+</body>
+</html>

@@ -29,8 +29,8 @@
                         <li><a href="#4">Crea tu cv</a></li>
                 </ul>
                 <ul class="right hide-on-med-and-down">
-                   <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
-                   <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+                   <li><a href="iniciarSesion.html" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+                   <li><a href="elegirNuevaCuenta.html" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,32 +39,9 @@
             <li><a href="#2">Golden-pass</a></li>
             <li><a href="#3">Usuarios</a></li>
             <li><a href="#4">Crea tu cv</a></li>
-            <li><a href="#" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
-            <li><a href="#" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
+            <li><a href="iniciarSesion.html" class="btn waves-effect waves-light   grey margine-btn">Inicias sesion</a></li>
+            <li><a href="elegirNuevaCuenta.html" class="btn waves-effect waves-light blue darken-4 margine-btn">Registrarse</a></li>
         </ul>
-        <!--
-        <nav class="blue">
-            <div class="nav-wrapper container">
-                <a href="index.html" class="brand-logo center"><img src="img/1.png" alt="logo" class="img"></a>
-                <a href="#" data-target="menu-responsive" class="sidenav-trigger">
-                            <i class="material-icons">menu</i>
-                </a>
-                <ul class="left hide-on-med-and-down">
-                    <li><a href="sass.html">Postulantes</a></li>
-                    <li><a href="badges.html">Reclutadores</a></li>
-                    <li><a href="busqueda.html">Ofertas</a></li>
-                </ul>
-                <ul class="right hide-on-med-and-down">
-                    <li>¿YA ESTAS REGISTRADO?</li>
-                    <li><a href="#" class="btn waves-effect waves-light black margine-btn">Inicias sesion</a></li>
-                </ul>
-            </div>
-        </nav>
-        <ul class="sidenav" id="menu-responsive">
-            <li><a href="sass.html">Postulantes</a></li>
-            <li><a href="badges.html">Reclutadores</a></li>
-            <li><a href="busqueda.html">Ofertas</a></li>
-        </ul>-->
     </header>
     <main class="container">
         <nav class="white z-depth-0 breadcrumbs">
@@ -77,8 +54,8 @@
         </nav>
         <section class="buscador">
             <div class="row">
-                <input placeholder="Buscar oferta" type="text" class="browser-default col s9">
-                <input placeholder="País/Región" type="text" class="browser-default col s3">
+                <input placeholder="Buscar oferta" type="text" class="browser-default col s9" id="buscador-izq">
+                <input placeholder="País/Región" type="text" class="browser-default col s3" id="buscador-der">
             </div>
             <div class="col s12 center-align">
                 <a href="#" class="btn blue" id="boton-buscar">BUSCAR</a>
@@ -543,7 +520,6 @@
     </footer>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/busqueda.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function(){
                 M.AutoInit();

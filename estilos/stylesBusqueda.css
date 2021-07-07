@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    nav .container{
+        width: 100% !important;
+        margin: 0px !important;
+     }
+}
 .breadcrumb:before{
     color: #2196f3;
 }
@@ -7,6 +22,18 @@
 input{
     padding: 10px !important;
     border-style: solid;
+    border-color: rgb(138, 138, 138) !important;
+}
+input:focus {
+    outline: none !important;
+    border-style: solid !important;
+    border-color: #1970b8 !important;
+}
+#buscador-izq{
+    border-radius: 10px 0px 0px 10px !important;
+}
+#buscador-der{
+    border-radius: 0px 10px 10px 0px !important;
 }
 #boton-buscar{
     padding: 0px 4em;
@@ -78,6 +105,7 @@ input{
 .pagination li.active {
     background-color: #2196f3;
 }
+/* ------------------ footer --------------*/
 .footer-main{
     display: flex !important;
     flex-wrap: wrap;
@@ -108,13 +136,3 @@ input{
     margin: 0px 0px;
 }
 
-.input-field input[type=text]:focus {
-    border-bottom: 1px solid #2196f3 !important;
-    box-shadow: 0 1px 0 0 #ffffff !important;
-}
-.input-field input[type=text]:focus + label {
-    color: #2196f3 !important;
-  }
-.dropdown-content select-dropdown{
-    color: blue !important;
-}
