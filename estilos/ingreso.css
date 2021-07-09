@@ -6,6 +6,26 @@
 .material-icons{
     font-family: 'Material Icons' !important;
 }
+.logo{
+    padding:  0px 300px 0px 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1024px){
+    .logo{
+        padding:  0px 150px 0px 150px;
+    }
+}
+@media (max-width: 768px){
+    .logo{
+        padding:  0px 150px 0px 150px;
+    }
+}
+@media (max-width: 425px){
+    .logo{
+        padding:  0px 50px 0px 50px;
+    }
+}
 h1{
     font-weight: bold;
     font-size: 4em;
@@ -13,7 +33,7 @@ h1{
     margin-bottom: 50px;
 }
 p{
-    margin-left: 20px;
+    font-size: 0.90em;
     margin-top: 0px;
 }
 .breadcrumb:before{
@@ -24,25 +44,39 @@ p{
     margin-top: 4px;
 }
 /* --------------- inputs ------------------*/
+/*
 input{
-    width: 90% !important;
     padding: 0px 0px 0px 10px !important;
     border: 2px !important;
+    border-width: 2px;
     border-color: rgb(138, 138, 138) !important;
     border-style: solid !important;
+    border-bottom: 10px;
     border-radius: 10px !important;
-}
+}*/
 ::placeholder{
     color: rgb(27, 27, 27);
 }
-.logo{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.input-field input[type=password]:focus {
+    border-color: #2196f3 !important;
 }
-.contenedor-blanco{
-    border-radius: 10px !important;
-    padding: 50px 0px 50px 0px;
+.input-field input[type=password]:focus + label {
+    color: #2196f3 !important;
+}
+.input-field input[type=text]:focus {
+    border-color: #2196f3 !important;
+}
+.input-field input[type=text]:focus + label {
+    color: #2196f3 !important;
+}
+.collapsible {
+    border-style: solid;
+    border-width: 2px;
+    margin: 0rem 0 1rem 0;
 }
 .botones{
     margin-bottom: 10px;
+}
+.contenedor-blanco{
+    padding: 25px 0px !important;
 }

@@ -28,26 +28,30 @@ h4{
     margin-top: 4px;
 }
 /* --------------- inputs ------------------*/
+/*
 input{
     padding: 0px 0px 0px 10px !important;
     border: 2px !important;
     border-width: 2px;
     border-color: rgb(138, 138, 138) !important;
     border-style: solid !important;
+    border-bottom: 10px;
     border-radius: 10px !important;
 }
 ::placeholder{
     color: rgb(27, 27, 27);
+}*/
+.input-field input[type=password]:focus {
+    border-color: #2196f3 !important;
+}
+.input-field input[type=password]:focus + label {
+    color: #2196f3 !important;
 }
 .input-field input[type=text]:focus {
-    box-shadow: 0 1px 0 0 #ffffff !important;
+    border-color: #2196f3 !important;
 }
 .input-field input[type=text]:focus + label {
     color: #2196f3 !important;
-    
-  }
-.dropdown-content select-dropdown{
-    color: blue !important;
 }
 .collapsible {
     border-style: solid;
@@ -75,7 +79,7 @@ input{
         right: 11px;
         height: 800px;
         width: 100%;
-        background-image: url(/img/bkgr-meeting.png);
+        background-image: url(../img/bkgr-meeting.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -90,7 +94,7 @@ input{
         padding: 0px 2.2em;
     }
     .formulario-back{
-        background-image: url(/img/bkgr-meeting.png);
+        background-image: url(../img/bkgr-meeting.png);
         height:800px;
         background-size: cover;
     }
