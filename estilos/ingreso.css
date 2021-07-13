@@ -44,16 +44,7 @@ p{
     margin-top: 4px;
 }
 /* --------------- inputs ------------------*/
-/*
-input{
-    padding: 0px 0px 0px 10px !important;
-    border: 2px !important;
-    border-width: 2px;
-    border-color: rgb(138, 138, 138) !important;
-    border-style: solid !important;
-    border-bottom: 10px;
-    border-radius: 10px !important;
-}*/
+
 ::placeholder{
     color: rgb(27, 27, 27);
 }

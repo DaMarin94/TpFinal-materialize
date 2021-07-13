@@ -34,6 +34,7 @@ nav{
    padding: 0;
    background-image: url("../img/fondo.jpg"); 
    background-repeat: no-repeat;
+   
    background-size: cover;
    background-position: left center;
    font-family: sans-serif;
@@ -71,7 +72,7 @@ nav{
 
 }
 .inset {
-   box-shadow: rgb(117, 117, 117) 0 0px 15px 2px inset!important;
+   box-shadow: black 0 0px 18px 4px inset!important;
 }
 
 /*----------------------- 2° ---------------------------*/
@@ -87,13 +88,22 @@ nav{
    background-position: left center;
    font-family: sans-serif;
 }
+
 .cont_busqueda input::placeholder{
   color: #000;
 }
 .cont_busqueda input{
-   text-indent: 10px;
    border: 1px solid rgb(195, 195, 206) ;
    background-color: #fff !important;
+   border-top-left-radius: none !important;
+}
+.search_l{
+  border-start-start-radius: 15px !important;
+  border-end-start-radius: 15px !important;
+}
+.search_r{
+  border-start-end-radius: 15px !important;
+  border-end-end-radius: 15px !important;
 }
 .cont_busqueda{
   margin-top: 80px;
@@ -106,19 +116,8 @@ nav{
 }
 .cont_ofertas_recientes{
   margin-top: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   padding-top: 0px;
-}
-/*------------------------separador---------------------*/
-@media (max-width: 900px){
-   .divisor-h-xl{
-      display: none;
-   }
-}
-@media (min-width: 900px){
-   .divisor-h{
-      display: none;
-   }
 }
 /*----------------------- 3° ---------------------------*/
 
@@ -174,7 +173,7 @@ nav{
    max-width:  550px;
 }
 .cont_usuarios{
-  padding-bottom: 50px;
+  padding-bottom: 150px;
   padding-top: 20px;
 }
 .cont_usuarios img{
@@ -190,7 +189,7 @@ nav{
 /*----------------------- 5° ---------------------------*/
 
 .cont_gatos{
-  margin: 80px 0px 50px 0px;  
+  margin: 100px 0;  
 }
 
 .cont_gatos p{

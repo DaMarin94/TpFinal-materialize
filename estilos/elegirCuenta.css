@@ -19,7 +19,7 @@
         left: 5px;
         height:800px;
         width: 99.38%;
-        background-image: url(/img/reposera.jpeg);
+        background-image: url(../img/reposera.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -28,7 +28,7 @@
         right: 11px;
         height:800px;
         width: 99.38%;
-        background-image: url(/img/bkgr-meeting.png);
+        background-image: url(../img/bkgr-meeting.png);
         background-size: cover;
         background-repeat: no-repeat;
     }

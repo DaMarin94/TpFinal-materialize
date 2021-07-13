@@ -29,14 +29,7 @@
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 
     0 3px 1px -2px rgb(0 0 0 / 12%), 
     0 1px 5px 0 rgb(0 0 0 / 20%);
-}/*
-.cartel-de-oferta-sup{
-    margin-bottom: 1em !important;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(138, 138, 138);
-}*/
+}
 .titulo-de-oferta{
     padding: 0em 0.75em 0.75em 0.75em !important;
 }
@@ -56,15 +49,7 @@
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 
     0 3px 1px -2px rgb(0 0 0 / 12%), 
     0 1px 5px 0 rgb(0 0 0 / 20%);
-}/*
-.cartel-de-oferta-info{
-    padding: 0.75em !important;
-    margin-bottom: 1em !important;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(138, 138, 138);
-}*/
+}
 .icono-de-oferta{
     padding: 1.5em 1em 1em 1em !important;
 }
@@ -126,13 +111,6 @@
     0 3px 1px -2px rgb(0 0 0 / 12%), 
     0 1px 5px 0 rgb(0 0 0 / 20%);
 }
-/*.cartel-de-oferta-simil{
-    margin-bottom: 1em !important;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(138, 138, 138);
-}*/
 .ofertas-similares .icono-de-oferta{
     padding: 1em 0.5em 0em 0em !important;
 }

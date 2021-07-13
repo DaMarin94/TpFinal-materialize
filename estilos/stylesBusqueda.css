@@ -31,13 +31,7 @@ input:focus {
     outline: none !important;
     border-style: none !important;
     box-shadow: 2px 2px 7px #818181;
-}/*
-#buscador-izq{
-    border-radius: 15px 0px 0px 15px !important;
 }
-#buscador-der{
-    border-radius: 0px 15px 15px 0px !important;
-}*/
 #boton-buscar{
     padding: 0px 4em;
 }
@@ -75,22 +69,7 @@ input:focus {
 .oferta-listada p{
     margin-block-start: 0em !important;
 }
-/*
-.oferta-listada-g{
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 200, 49);
-    border-radius: 10px;
-    font-size: 0.9em;
-}
-.oferta-listada{
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(138, 138, 138);
-    border-radius: 10px;
-    font-size: 0.9em;
-}
-*/
+
 .oferta-listada-g{
     border-style: solid;
     border-width: 0.1px;
