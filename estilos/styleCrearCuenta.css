@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 *{
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Ropa Sans', sans-serif !important;
 }
 .material-icons{
     font-family: 'Material Icons' !important;
@@ -63,7 +63,7 @@ h4{
     .img-bkgr{
         position: relative;
         left: 5px;
-        height:800px;
+        height:917px;
         width: 99.38%;
         background-image: url(../img/reposera.jpeg);
         background-size: cover;

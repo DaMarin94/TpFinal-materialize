@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 *{
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Ropa Sans', sans-serif !important;
 }
 .material-icons{
     font-family: 'Material Icons' !important;
@@ -110,6 +110,18 @@ nav{
   padding-top: 0px;
 }
 /*------------------------separador---------------------*/
+.separador{
+      padding: 0;
+      margin-bottom: 30px;
+      margin-top: 0px;
+
+}
+.ofertas_recientes h2{
+   margin-bottom: 0;
+}
+.cont_titulo_usuario h3{
+   margin-top: 50px;
+}
 @media (max-width: 900px){
    .divisor-h-xl{
       display: none;
@@ -167,15 +179,15 @@ nav{
 /*----------------------- 4° ---------------------------*/
 .cont_usurios_flex{
   display: flex;
-  padding: 50px 0;
+  padding-bottom: 80px;
   justify-content: space-between;
 }
 .cont_usurio_item {
    max-width:  550px;
 }
 .cont_usuarios{
-  padding-bottom: 50px;
-  padding-top: 20px;
+  padding-bottom: 90px;
+  padding-top: 25px;
 }
 .cont_usuarios img{
   padding-top: 20px;
@@ -252,6 +264,9 @@ html{
 }
 .scroll2{
   scroll-margin-top: 4.2em;
+}
+.scroll3{
+  scroll-margin-top: 7.5em;
 }
 input:focus {
  border-bottom: 1px solid #2196f3!important;
