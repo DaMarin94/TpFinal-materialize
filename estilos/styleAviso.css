@@ -15,6 +15,9 @@ main{
         margin: 0px !important;
      }
 }
+nav ul a{
+    font-size: 1.25em !important;
+ }
 .container-bread{
     padding: 0em !important;
 }
@@ -45,7 +48,7 @@ main{
     font-size: 1.50em !important;
 }
 .cartel-de-oferta-info{
-    padding: 0.75em !important;
+    padding: 1em 1.5em 0.75em 1em !important;
     margin-bottom: 1em !important;
     border-style: none;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 

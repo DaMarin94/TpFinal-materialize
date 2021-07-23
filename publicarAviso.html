@@ -53,7 +53,7 @@
                 <div class="nav-wrapper">
                 <div class="col s12">
                     <a href="cuentaReclutador.html" class="breadcrumb blue-text">Inicio</a>
-                    <a href="#" class="breadcrumb blue-text">Publicar aviso</a>
+                    <a href="#" class="breadcrumb blue-text">Publicar Aviso</a>
                 </div>
                 </div>
             </nav>
@@ -65,7 +65,7 @@
                         <div class="card-tabs">
                             <ul class="tabs tabs-fixed-width">
                                 <li class="tab"><a href="#test7">Aviso Básico</a></li>
-                                <li class="tab"><a class="active" href="#test8">Aviso Standard</a></li>
+                                <li class="tab"><a class="active" href="#test8">Aviso Estándar</a></li>
                                 <li class="tab"><a href="#test9">Aviso Golden</a></li>
                             </ul>
                         </div>
@@ -94,7 +94,7 @@
                             </div>
                             <div id="test8">
                                 <div class="center">
-                                    <h4>Aviso Standard</h4>
+                                    <h4>Aviso Estándar</h4>
                                         <h6>Accedé a todos los inscriptos</h6>
                                 </div>
                                 <div class="blue lighten-5 cont_detalle_planes">
@@ -131,7 +131,7 @@
                                     </div>
                                 </div>
                                 <div class="center cont_boton_planes row">
-                                    <h6>desde<b>$ 4.000</b> por aviso</h6>
+                                    <h6>desde<b> $ 4.000</b> por aviso</h6>
                                     <div class="col s3"></div>
                                     <button class="col s6 btn waves-effect waves-light blue">COMPRAR</button>
                                 </div>
@@ -150,16 +150,16 @@
                 <form action="" class="container_form">
                     <h4 class="blue-text center">Publicar un aviso</h4>
                     <div class="input-field">
-                        <input id="puesto" type="text" class="validate" placeholder="Puesto">
+                        <input id="puesto" type="text" class="validate" placeholder="Puesto" required>
                     </div>
                     <div class="input-field">
-                        <input id="lugar" type="text" class="validate" placeholder="Lugar">
+                        <input id="lugar" type="text" class="validate" placeholder="Lugar" required>
                     </div>
                     <div class="input-field">
-                        <input id="correo" type="text" class="validate" placeholder="Correo">
+                        <input id="correo" type="email" class="validate" placeholder="Correo" required>
                     </div>
                     <div class="input-field">
-                        <input id="nombre" type="text" class="validate" placeholder="Nombre de la empresa">
+                        <input id="nombre" type="text" class="validate" placeholder="Nombre de la empresa" required>
                     </div>
                     <div class="input-field">
                         <input id="remuneracion" type="text" class="validate" placeholder="Remuneración">
@@ -179,6 +179,7 @@
             </div>
         </div>
     </main>
+    <script src="/lala.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             M.AutoInit();

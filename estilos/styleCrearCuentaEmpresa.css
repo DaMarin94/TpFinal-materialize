@@ -12,6 +12,25 @@
         margin: 0px !important;
      }
 }
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+}
+main{
+    position: relative;
+    height: calc(100% - 65px);
+    margin: 0em !important;
+}
+nav ul a{
+    font-size: 1.25em !important;
+}
 .main-row{
     margin-bottom: 0px !important;
 }
@@ -65,16 +84,17 @@ h4{
     .img-bkgr{
         position: relative;
         right: 11px;
-        height: 917px;
+        height: 100%;
         width: 100%;
-        background-image: url(../img/bkgr-meeting.png);
+        background-image: url(../img/bkgr-meeting-form.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
     .pre-bkgr{
+        position: relative;
+        height: 100%;
         padding-right: 0em !important;
     }
-
 }
 
 @media (max-width: 600px){
@@ -83,8 +103,9 @@ h4{
     }
     .formulario-back{
         background-image: url(../img/bkgr-meeting.png);
-        height:800px;
+        height: auto;
         background-size: cover;
+        padding-bottom: 1.75em !important;
     }
     ::placeholder{
         color: rgb(27, 27, 27);

@@ -12,6 +12,9 @@ nav{
    position: fixed;
    z-index: 10;
 }
+nav ul a{
+   font-size: 1.25em !important;
+}
 .nav-left{
    margin-left: 150px;
 }
@@ -29,7 +32,7 @@ nav{
 }
 /*----------------------- 1° ---------------------------*/
 .cont-img{
-   height:825px;
+   height:1000px;
    margin: 0;
    padding: 0;
    background-image: url("../img/fondo.jpg"); 
@@ -56,7 +59,11 @@ nav{
 .pcR{
   margin-right: 50px;
 }
+
 /*----------------------- 1° ---------------------------*/
+.Cont_botones_inicio{
+   margin-top:100px;
+}
 .cont_row_btn{
   height: 100px;
 }
@@ -77,11 +84,11 @@ nav{
 /*----------------------- 2° ---------------------------*/
 
 .cont_img_busqueda{
-   height: 500px;
+   height: 400px;
    margin: 0;
    padding: 0;
-   background-image: url("../img/img_busqueda2.jpg"); 
-   background-repeat: no-repeat;
+   background-image: url("../img/img_busqueda3.jpg"); 
+   background-repeat: no-repeat; 
    
    background-size: cover;
    background-position: left center;
@@ -108,6 +115,9 @@ nav{
   margin-top: 0px;
   padding-bottom: 50px;
   padding-top: 0px;
+}
+.cont_ofertas_recientes p{
+   font-size: 1.1em;
 }
 /*------------------------separador---------------------*/
 .separador{
@@ -139,13 +149,18 @@ nav{
   padding: 10px 0px;
 }
 .cont_detalle_planes p{
- padding: 5px 0px;
+   font-size: 1.25em;
+   padding: 5px 0px;
+}
+.card_planes h4{
+   font-size: 2.92rem;
 }
 .card_planes{
   padding: 24px 0px !important;
 }
 .cont_boton_planes button{
-  margin: 5px 0px;
+   font-size: 1.25em;
+   margin: 5px 0px;
 }
 .cont_planes{
   height: 788px !important;
@@ -157,6 +172,7 @@ nav{
 }
 .tabs .tab a{
   color:#90caf9 ;
+  font-size: 1.2em !important;
 } 
 
 .tabs .tab a:hover {
@@ -172,7 +188,7 @@ nav{
 } 
 .tabs .indicator {
    background-color:#2196f3 ;
-} 
+}
 
 
 
@@ -188,6 +204,9 @@ nav{
 .cont_usuarios{
   padding-bottom: 90px;
   padding-top: 25px;
+}
+.cont_usuarios p{
+   font-size: 1.1em;
 }
 .cont_usuarios img{
   padding-top: 20px;
@@ -209,10 +228,13 @@ nav{
   text-align: center;
 }
 .cont_btn_gatos{
-  padding-bottom: 55px;
+   padding-bottom: 55px;
+}
+.cont_btn_gatos .btn{
+   font-size: 1.25em;
 }
 .gato_titulo{
-  padding-top: 65px;
+   padding-top: 65px;
 }
 
 /*----------------------- footer ---------------------------*/
@@ -279,18 +301,24 @@ label.active {
 
 
 @media only screen and (max-width: 1660px)and (min-width:1300px){
-  .texto_btn{
-     font-size:18px;
-  }
+
+   .texto_btn{
+      font-size: 1.25em;
+      letter-spacing: 0px;
+   }
   .cont_usurio_item {
    max-width:  450px;
   }
 }
 
 @media only screen and (max-width: 1300px)and (min-width:1200px){
-  .texto_btn{
-     font-size:17px;
-  }
+   .cont_btn button{
+      line-height:100%;
+   }
+   .texto_btn{
+      font-size: 1.30em;
+      letter-spacing: 0px;
+   }
   h5{
      font-size:20px;
   }
@@ -324,8 +352,12 @@ label.active {
   h5{
      font-size:20px;
   }
+  .cont_btn button{
+   line-height:100%;
+   }
   .texto_btn{
-     font-size:13px;
+      font-size: 1.25em !important;
+      letter-spacing: 0px;
   }
   .cont_usurio_item {
    max-width:  400px;
@@ -349,6 +381,13 @@ label.active {
   .cont_usurio_item {
      max-width:  none;
   }
+  .cont_btn button{
+   line-height:100%;
+   }
+  .texto_btn{
+      font-size: 1.25em !important;
+      letter-spacing: 0px;
+   }
 }
 
 
@@ -381,8 +420,12 @@ label.active {
   h5{
      font-size:17px;
   }
+  .cont_btn button{
+   line-height:100%;
+   }
   .texto_btn{
-     font-size:11px;
+      font-size: 1em;
+      letter-spacing: 0px;
   }
 }
 
@@ -418,9 +461,12 @@ label.active {
   h5{
      font-size:15px;
   }
+  .cont_btn button{
+   line-height:100%;
+   }
   .texto_btn{
-     font-size:10px;
-     letter-spacing: 0px;
+      font-size: 1.25em;
+      letter-spacing: 0px;
   }
 }
 
@@ -452,10 +498,13 @@ label.active {
   }
   .redes{
      width: 90px;
-  } 
+  }
+  .cont_btn button{
+   line-height:100%;
+   }
   .texto_btn{
-     font-size:9px;
-     letter-spacing: 0px;
+      font-size: 1em;
+      letter-spacing: 0px;
   }
 }
 
@@ -498,15 +547,18 @@ label.active {
   h5{
      font-size:14px;
   }
+  .cont_btn button{
+   line-height:100%;
+   }
   .texto_btn{
-      font-size:8px;
-     letter-spacing: 0px;
+      font-size: 1em;
+      letter-spacing: 0px;
   }
 }
 @media only screen and (max-width: 485px){
 
   .t, .v, .f, .n{
-     font-size: 40px;
+     font-size: 3em !important;
   }
 
   .pc{
@@ -526,9 +578,11 @@ label.active {
      padding-left: 100px;
   }
   .cont-img{
-  height:490px;
+  height:690px;
   }
-  
+  .Cont_botones_inicio{
+   margin-top:0px;
+   }
 
         
   /*----------------------------------------------------------------------*/
@@ -545,13 +599,13 @@ label.active {
   }
  .redes{
      width: 90px;
-  } 
+  }
   .hidden{
      display: none;
   }
   .texto_btn{
-      font-size:7px;
-     letter-spacing: 0px;
+      font-size: 1em;
+      letter-spacing: 0px;
   }
   .cont_btn button{
      line-height:100%;

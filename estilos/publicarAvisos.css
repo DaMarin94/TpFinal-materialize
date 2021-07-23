@@ -7,7 +7,9 @@
     font-family: 'Material Icons' !important;
 }
 /*----------------------- NAV ---------------------------*/
-
+nav ul a{
+    font-size: 1.25em !important;
+ }
 @media screen and (max-width: 1200px) and (min-width: 993px) {
    nav .container{
        width: 100% !important;
@@ -47,20 +49,26 @@ textarea:focus {
 /*----------------------- planes ------------------------------*/
 
 .tabs .tab a{
-  color:#90caf9 ;
+  color:#90caf9;
+  font-size: 1.2em !important;
 } 
 .cont_detalle_planes{
   margin: 50px 0px;
   padding: 10px 0px;
 }
 .cont_detalle_planes p{
- padding: 5px 0px;
+    font-size: 1.25em;
+    padding: 5px 0px;
+}
+.card_planes h4{
+    font-size: 2.92rem;
 }
 .card_planes{
   padding: 24px 0px !important;
 }
 .cont_boton_planes button{
   margin: 5px 0px;
+  font-size: 1.25em;
 }
 .cont_planes{
   height: 788px !important;

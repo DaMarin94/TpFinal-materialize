@@ -13,6 +13,9 @@
         margin: 0px !important;
     }
 }
+nav ul a{
+    font-size: 1.25em !important;
+}
 .breadcrumb:before{
     color: #2196f3;
 }
@@ -33,6 +36,7 @@ input:focus {
     box-shadow: 2px 2px 7px #818181;
 }
 #boton-buscar{
+    font-size: 1.25em;
     padding: 0px 4em;
 }
 .filtros{
@@ -56,12 +60,18 @@ input:focus {
     margin: 22px 0px;
 }
 .oferta-listada-g h5{
-    color: rgb(230, 177, 31);
+    color: #fbc02d;
     font-weight: bold;
 }
 .oferta-listada h5{
     color: initial;
     font-weight: bold;
+}
+.oferta-listada-g h6{
+    font-size: 1.50em;
+}
+.oferta-listada h6{
+    font-size: 1.50em;
 }
 .oferta-listada-g p{
     margin-block-start: 0em !important;
@@ -69,11 +79,15 @@ input:focus {
 .oferta-listada p{
     margin-block-start: 0em !important;
 }
+.cont_descripcion_publi{
+    width:93%;
+    font-size: 1.25em;
+}
 
 .oferta-listada-g{
     border-style: solid;
     border-width: 0.1px;
-    border-color: rgb(255, 212, 94);
+    border-color: #fbc02d;
     padding: 0px 5px 5px 5px;
     box-shadow: 0 2px 2px 0 rgb(255 200 49 / 14%), 
     0 3px 5px 2px rgb(255 200 49/ 12%), 

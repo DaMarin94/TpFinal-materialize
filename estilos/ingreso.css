@@ -36,7 +36,7 @@ h1{
     margin-bottom: 50px;
 }
 p{
-    font-size: 0.90em;
+    font-size: 1em;
     margin-top: 0px;
 }
 .breadcrumb:before{
@@ -73,4 +73,7 @@ p{
 }
 .contenedor-blanco{
     padding: 25px 0px !important;
+}
+a{
+    font-size: 1.20em !important;
 }
